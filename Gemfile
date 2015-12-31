@@ -51,3 +51,7 @@ group :test do
   gem 'mini_backtrace'
   gem 'guard-minitest', '2.3.1'
 end
+
+group :production do
+  gem 'puma',           '2.11.1'
+end
